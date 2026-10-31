@@ -56,34 +56,20 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate, onOpenS
             </button>
           </div>
 
-          {/* Brand Logo & Signature */}
-          <div className="flex items-center gap-3">
-            <button
-              onClick={() => handleLinkClick('home')}
-              className="group flex items-center gap-2.5 text-left focus:outline-none"
-            >
-              <div className="w-8 h-8 rounded-sm bg-[#161616] border border-[#2D2D2D] flex items-center justify-center group-hover:border-[#D6FF3F] transition-colors">
-                <svg
-                  className="w-5 h-5 text-[#D6FF3F] group-hover:scale-110 transition-transform"
-                  viewBox="0 0 100 100"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="10"
-                  strokeLinecap="round"
-                >
-                  <path d="M30,50 C30,38 42,35 50,50 C58,65 70,62 70,50 C70,38 58,35 50,50 C42,65 30,62 30,50 Z" />
-                </svg>
-              </div>
-              <div className="flex flex-col">
-                <span className="font-heading text-2xl sm:text-3xl tracking-wider text-[#F5F3EF] leading-none group-hover:text-[#D6FF3F] transition-colors">
-                  ENDLOOP <span className="text-[#A4A4A4] group-hover:text-[#F5F3EF]">DRIPS</span>
-                </span>
-                <span className="font-mono-street text-[9px] tracking-[0.25em] text-[#A4A4A4] uppercase -mt-0.5">
-                  Wear Your Mind
-                </span>
-              </div>
-            </button>
-          </div>
+          {/* Brand Logo */}
+<div className="flex items-center">
+  <button
+    onClick={() => handleLinkClick('home')}
+    className="flex items-center focus:outline-none"
+    aria-label="ENDLOOP DRIPS Home"
+  >
+    <img
+      src="/endloop.jpg"
+      alt="ENDLOOP DRIPS Logo"
+      className="h-12 w-auto object-contain"
+    />
+  </button>
+</div>
 
           {/* Desktop Navigation Links */}
           <nav className="hidden lg:flex items-center gap-8">

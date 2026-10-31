@@ -103,22 +103,15 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-12 gap-8 lg:gap-12 mb-16">
           {/* Brand Col */}
           <div className="col-span-2 md:col-span-4 lg:col-span-4 space-y-4">
-            <div className="flex items-center gap-2.5">
-              <div className="w-7 h-7 bg-[#171717] border border-[#2C2C2C] flex items-center justify-center">
-                <svg
-                  className="w-4 h-4 text-[#D6FF3F]"
-                  viewBox="0 0 100 100"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="10"
-                >
-                  <path d="M30,50 C30,38 42,35 50,50 C58,65 70,62 70,50 C70,38 58,35 50,50 C42,65 30,62 30,50 Z" />
-                </svg>
-              </div>
-              <span className="font-heading text-2xl tracking-wider text-[#F5F3EF]">
-                ENDLOOP DRIPS
-              </span>
-            </div>
+            
+              
+              <div className="flex items-center gap-3">
+  <img
+    src="/endloop.jpg"
+    alt="ENDLOOP DRIPS Logo"
+    className="h-14 sm:h-16 w-auto object-contain"
+  />
+</div>
             <p className="font-mono-street text-xs text-[#A4A4A4] leading-relaxed max-w-sm">
               “Wear your mind.” Designed for the awakened. An underground streetwear label turning
               heavyweight textiles into a canvas for unfiltered identity and abstract perspective.

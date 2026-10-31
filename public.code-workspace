@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../Downloads/samplegym/samplegym/public"
+		},
+		{
+			"path": "../../Downloads/samplegym/samplegym/node_modules"
+		},
+		{
+			"path": "../../Downloads/samplegym/samplegym/src"
+		},
+		{
+			"path": "../../Downloads/samplegym/samplegym/.git"
+		},
+		{
+			"path": "../../Downloads/samplegym/samplegym/.github"
+		},
+		{
+			"path": "../../Downloads/samplegym/samplegym/api"
+		},
+		{
+			"path": "../../Downloads/samplegym/samplegym/dist"
+		}
+	]
+}
